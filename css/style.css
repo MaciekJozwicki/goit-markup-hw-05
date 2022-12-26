@@ -109,26 +109,20 @@ ul {
     
 }
 .header-icon-smartphone {
-    width: 10px;
-    height: 16px;
     margin-left: 30px;
     fill: var(--color-text);
-
 }
 .header-icon-smartphone:hover,
 .header-icon-smartphone:focus {
     fill: var(--color-logo);
 }
 .header-icon-envelope {
-    width: 16px;
-    height: 12px;
     fill: var(--color-text);
 }
 .header-icon-envelope:hover,
 .header-icon-envelope:focus {
     fill: var(--color-logo);
 }
-
 /* INDEX HERO */
 
 .hero {
@@ -212,6 +206,25 @@ ul {
     margin-bottom: 50px;
     font-size: 36px;
     font-weight: bold;
+}
+.what-we-do-content {
+    position: relative;
+}
+.what-we-do-description {
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width:100%;
+    background-color: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+    color: var(--color-white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 16px;
 }
 /* INDEX TEAM */
 .team {
