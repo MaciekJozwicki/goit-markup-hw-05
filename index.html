@@ -73,7 +73,7 @@
         <div class="hero">
           <h1 class="hero-header">Efektywne rozwiązania dla waszego biznesu</h1>
           <div>
-            <button class="hero-button" type="button">
+            <button class="hero-button" type="button" data-modal-open>
               <span class="hero-button-content">Zamów usługe</span>
             </button>
           </div>
@@ -529,5 +529,13 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          X
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
